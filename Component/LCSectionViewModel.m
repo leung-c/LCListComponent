@@ -1,0 +1,19 @@
+//
+//  LCSectionViewModel.m
+//  LCgo
+//
+//  Created by liangchao on 17/11/16.
+//  Copyright © 2017年 LCgo. All rights reserved.
+//
+
+#import "LCSectionViewModel.h"
+
+@implementation LCSectionViewModel
+- (instancetype)init{
+    self = [super init];
+    if(self){
+        _rows = [NSMutableArray array];
+    }
+    return self;
+}
+@end
